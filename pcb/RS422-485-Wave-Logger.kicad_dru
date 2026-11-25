@@ -1,0 +1,8 @@
+(version 1)
+(rule "Keep top components clear of microSD travel"
+  (condition "A.Type == 'Footprint' && A.Layer == 'F.Cu' && A.Reference != 'U1' && A.intersectsArea('microSD travel')")
+  (constraint disallow footprint))
+(rule "J8 IO1 to analog reference"
+  (condition "A.NetName == '/J8_IO1' && B.NetName == '/2  Bus Inputs and Waveform/MID_1V65'")
+  (constraint clearance (min 2mm)))
+

@@ -1,0 +1,4109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>RS422-485-Wave-Logger.kicad_sch</source>
+    <date>2026-11-25T16:07:34</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Interfaces and Controls</title>
+        <company/>
+        <rev>1</rev>
+        <date>2026-11-24</date>
+        <source>RS422-485-Wave-Logger.kicad_sch</source>
+        <comment number="1" value="Designed by FA Labo"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/">
+      <title_block>
+        <title>Bus Inputs and Waveform</title>
+        <company/>
+        <rev>1</rev>
+        <date>2026-11-25</date>
+        <source>Inputs.kicad_sch</source>
+        <comment number="1" value="Designed by FA Labo"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/">
+      <title_block>
+        <title>DC Power and Isolated CAN</title>
+        <company/>
+        <rev>1</rev>
+        <date>2026-11-25</date>
+        <source>DC_Power.kicad_sch</source>
+        <comment number="1" value="Designed by FA Labo"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>Existing TFT + encoder</value>
+      <footprint>Tap:TFT24_EC11_12P_90x43_Socket</footprint>
+      <fields>
+        <field name="Footprint">Tap:TFT24_EC11_12P_90x43_Socket</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="J2" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53be0000-abcd-4100-8500-000000000139</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>Grove I2C</value>
+      <footprint>Tap:Grove_110990037_RightAngle</footprint>
+      <fields>
+        <field name="Footprint">Tap:Grove_110990037_RightAngle</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Grove4" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf852526-dd72-457f-b582-2601d9857a36</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>Grove GPIO/ADC</value>
+      <footprint>Tap:Grove_110990037_RightAngle</footprint>
+      <fields>
+        <field name="Footprint">Tap:Grove_110990037_RightAngle</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Grove4" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39514389-08ea-49b0-89aa-15c195f1c4cc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7462d95-4452-4160-bca6-f67e4329918d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbfcb8b9-8b7a-4cef-9a57-0b6033c2ea1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2ce5b56-4b31-4881-b5ec-2df4a83f8e0f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8bac217-b6cd-4afc-8670-60a9f4ac2e44</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R48">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e92ff172-207e-4a36-b2a7-cb90297739cb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R49">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>623a2282-4fba-45e4-942d-679efff0e605</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R50">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6148fa2a-23de-46f1-932c-69ca8b957244</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R51">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cac96a42-f393-403b-8845-4d436a904890</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R52">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52c498b6-85de-4982-a872-63c99f6ee672</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R53">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9af2b84a-ff58-4922-8ef4-755e5cb5eae8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R54">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a36f523e-8778-4101-bc0e-9642c59029a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>WeAct STM32H562RGT6</value>
+      <footprint>Tap:WeAct_H562RG_V11</footprint>
+      <fields>
+        <field name="Footprint">Tap:WeAct_H562RG_V11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="U1" description=""/>
+      <property name="Sheetname" value="RS422-485-Wave-Logger"/>
+      <property name="Sheetfile" value="RS422-485-Wave-Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53be0000-abcd-4100-8500-000000000069</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="F1"/>
+            <pin num="F30"/>
+            <pin num="F26"/>
+            <pin num="F28"/>
+            <pin num="F2"/>
+            <pin num="F31"/>
+            <pin num="F27"/>
+            <pin num="F29"/>
+            <pin num="F3"/>
+            <pin num="F4"/>
+            <pin num="F21"/>
+            <pin num="F22"/>
+            <pin num="F23"/>
+            <pin num="F24"/>
+            <pin num="F25"/>
+            <pin num="F32"/>
+            <pin num="F33"/>
+            <pin num="F34"/>
+            <pin num="F20"/>
+            <pin num="F5"/>
+            <pin num="F6"/>
+            <pin num="F10"/>
+            <pin num="F11"/>
+            <pin num="F12"/>
+            <pin num="F13"/>
+            <pin num="F14"/>
+            <pin num="F15"/>
+            <pin num="F16"/>
+            <pin num="F17"/>
+            <pin num="F18"/>
+            <pin num="F19"/>
+            <pin num="F35"/>
+            <pin num="F36"/>
+            <pin num="F37"/>
+            <pin num="F38"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>12740d70-b3c0-4070-9b6a-2b9bea648f82</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>ad699f95-7585-4c2c-b9bb-38aaf9924f1a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>768207ff-0231-48f2-b4c6-2ec754157f4f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>e654a56b-1b80-4616-a924-f0fecd096973</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>c8c9af54-9976-4512-af2f-7fb6077922f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>216bf290-03bc-45fa-8cf8-7cdb1f2a7786</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>87d9920a-5c2f-4a5b-bdff-a8022b5e3c31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>96ce30af-e887-4922-9188-d8abe76d9de3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>6fbf3da2-f697-4951-9720-9bfe1beaf48e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>7ade4b8d-28be-4f00-b461-0e9a78786b9c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C21">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>54d8f86c-e892-45d9-9b9a-b12af10eaef6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C22">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>6de512aa-c156-4efb-bac0-d24fbeed8f15</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C23">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>6ec3c251-8631-48db-8039-1b61f25387b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>aebec0a4-2e4b-4a41-b490-6c84dd26e76d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SM712</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="SM712" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>1f290f5c-584d-4e3f-bc00-8868b567960b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>SM712</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="SM712" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>bf087db8-c886-4c2d-9fb6-370f18e61558</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D7">
+      <value>BAT54X</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <fields>
+        <field name="MPN">BAT54X</field>
+        <field name="LCSC">C19627026</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MPN" value="BAT54X"/>
+      <property name="LCSC" value="C19627026"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>05265673-95bc-474e-afba-fe83095b9a0e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D8">
+      <value>BAT54X</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <fields>
+        <field name="MPN">BAT54X</field>
+        <field name="LCSC">C19627026</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MPN" value="BAT54X"/>
+      <property name="LCSC" value="C19627026"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>619f6cea-9d44-40ea-a33a-d44f7f32bd34</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>BUS TERMINAL</value>
+      <footprint>Tap:Akizuki_APF142_APF143_5P_P5.08</footprint>
+      <fields>
+        <field name="Footprint">Tap:Akizuki_APF142_APF143_5P_P5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="J1" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>53be0000-abcd-4100-8500-000000000003</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111798</field>
+        <field name="MPN">RG2012N-104-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111798"/>
+      <property name="MPN" value="RG2012N-104-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>ffef5426-35db-471f-9ed0-4898c00680df</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111798</field>
+        <field name="MPN">RG2012N-104-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111798"/>
+      <property name="MPN" value="RG2012N-104-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>b60a33c4-1d57-40a9-81f2-2788811b043d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111798</field>
+        <field name="MPN">RG2012N-104-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111798"/>
+      <property name="MPN" value="RG2012N-104-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>6a9143de-3474-4da7-9305-571abc2498cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111798</field>
+        <field name="MPN">RG2012N-104-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111798"/>
+      <property name="MPN" value="RG2012N-104-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>02046a46-8692-46d8-be85-521799d29ebd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111797</field>
+        <field name="MPN">RG2012-N-103-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111797"/>
+      <property name="MPN" value="RG2012-N-103-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>df880c71-dd1f-48c6-ab2e-6b28e72fd337</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111797</field>
+        <field name="MPN">RG2012-N-103-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111797"/>
+      <property name="MPN" value="RG2012-N-103-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>47e65889-ac98-4ba0-be25-16c76e878554</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111797</field>
+        <field name="MPN">RG2012-N-103-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111797"/>
+      <property name="MPN" value="RG2012-N-103-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>ecb1b242-8035-49ea-a8fc-4552523a836e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111797</field>
+        <field name="MPN">RG2012-N-103-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111797"/>
+      <property name="MPN" value="RG2012-N-103-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>2387d1f0-597f-46fb-a588-b4fc5bbb1adf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>61d4cb0a-99ae-4d59-9197-4873eca8ebf6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>98c07dbb-7aea-426a-9ed6-ed0464586a60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>0cb1f596-f833-4571-9a31-3e7ccc5a2e46</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>c398838a-b8ce-4fb9-89e0-7912204a06ce</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>54bab291-02c0-4c5a-bcb2-9214744a291d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>7e9929e3-c061-4bec-9ab0-8ab2db1c4b63</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>97fefeb5-206c-4f05-8e0e-1ab1084f6a59</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>f968e9b1-8a11-4674-b27d-16cf1d2e220d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>b70bac34-7bf6-42ff-bc58-e857a8208f6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>e1bce17d-f282-472f-9307-f3042486d8b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>8c6f45f2-9c47-40e6-ad56-333530e55571</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R28">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>f36dddab-de11-4e0b-9b03-198b4a1274ea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R29">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>cd8bb9c7-3420-4e65-8812-a5541cb4c8f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>2b3df540-1e55-4397-8c5d-1356a09bc3e4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>43bfcdb9-9a77-40e4-83b4-beb9903c135c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>51804847-539e-4ce6-a5a1-e9944d309575</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>584e366d-28e0-4b4d-a754-bae409057660</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>599da4c2-c4e4-4562-9d58-b912921aea8f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>30812728-491a-4fce-a110-adae5f73eb00</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R39">
+      <value>240</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Akizuki">108528</field>
+        <field name="MPN">MFS25F240RB</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.25 W</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Akizuki" value="108528"/>
+      <property name="MPN" value="MFS25F240RB"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="0.25 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>089fc27b-52d9-48ea-8081-b5aa82943716</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R40">
+      <value>300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Akizuki">108824</field>
+        <field name="MPN">MFU100F300RB</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">1 W</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Akizuki" value="108824"/>
+      <property name="MPN" value="MFU100F300RB"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="1 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>41320274-ea6d-4d1e-8e2c-772303acbdbd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R41">
+      <value>300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Akizuki">108824</field>
+        <field name="MPN">MFU100F300RB</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">1 W</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Akizuki" value="108824"/>
+      <property name="MPN" value="MFU100F300RB"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="1 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>83e74554-d1b2-4f9c-a215-a0e6532c6ff1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R42">
+      <value>240</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Akizuki">108528</field>
+        <field name="MPN">MFS25F240RB</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.25 W</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Akizuki" value="108528"/>
+      <property name="MPN" value="MFS25F240RB"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="0.25 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>c4fe4b22-7197-4d0f-9e74-5dbb9919e894</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R43">
+      <value>300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Akizuki">108824</field>
+        <field name="MPN">MFU100F300RB</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">1 W</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Akizuki" value="108824"/>
+      <property name="MPN" value="MFU100F300RB"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="1 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>5deeaec7-9253-4d8d-a555-167995cbed96</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R44">
+      <value>300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Akizuki">108824</field>
+        <field name="MPN">MFU100F300RB</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">1 W</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Akizuki" value="108824"/>
+      <property name="MPN" value="MFU100F300RB"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="1 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>ddc58e90-b85b-42d3-8a6d-2fbcbe15f132</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R55">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111798</field>
+        <field name="MPN">RG2012N-104-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111798"/>
+      <property name="MPN" value="RG2012N-104-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>695c4843-f873-40a2-a221-e0e70e7e583b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R56">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111798</field>
+        <field name="MPN">RG2012N-104-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111798"/>
+      <property name="MPN" value="RG2012N-104-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>1a1ce982-7913-433e-81bb-c3e72c7d4b9e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R57">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111798</field>
+        <field name="MPN">RG2012N-104-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111798"/>
+      <property name="MPN" value="RG2012N-104-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>2ad97d9c-5dba-4d39-998e-c05dcb35da12</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R58">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111798</field>
+        <field name="MPN">RG2012N-104-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111798"/>
+      <property name="MPN" value="RG2012N-104-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>14c900fb-431f-4354-a899-d6841cc9731f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R59">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111797</field>
+        <field name="MPN">RG2012-N-103-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111797"/>
+      <property name="MPN" value="RG2012-N-103-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>cc77632b-44de-40fd-809d-68548b69927c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R60">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111797</field>
+        <field name="MPN">RG2012-N-103-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111797"/>
+      <property name="MPN" value="RG2012-N-103-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>0a92d9e1-e8e7-499d-970e-838bf45cd6cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R61">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111797</field>
+        <field name="MPN">RG2012-N-103-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111797"/>
+      <property name="MPN" value="RG2012-N-103-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>a5af1d84-c0d0-4eac-94dd-c8ba313f6391</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R62">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Akizuki">111797</field>
+        <field name="MPN">RG2012-N-103-B-T5</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">0.125 W</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Res" description=""/>
+      <property name="Akizuki" value="111797"/>
+      <property name="MPN" value="RG2012-N-103-B-T5"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Power" value="0.125 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>59b6a606-3f9d-446f-8481-2128295f495c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R63">
+      <value>240</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Akizuki">108528</field>
+        <field name="MPN">MFS25F240RB</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.25 W</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Akizuki" value="108528"/>
+      <property name="MPN" value="MFS25F240RB"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="0.25 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>524272a8-5eee-4ac6-b736-f51304ac8b46</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R64">
+      <value>240</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Akizuki">108528</field>
+        <field name="MPN">MFS25F240RB</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.25 W</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Akizuki" value="108528"/>
+      <property name="MPN" value="MFS25F240RB"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power" value="0.25 W"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>58902074-581b-421b-82e8-c9ed6eb9df75</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>KHS42E</value>
+      <footprint>Tap:OTAX_KHS42E</footprint>
+      <datasheet>https://akizukidenshi.com/goodsaffix/KHS.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Tap:OTAX_KHS42E</field>
+        <field name="Datasheet">https://akizukidenshi.com/goodsaffix/KHS.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x04" description="4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <property name="ki_fp_filters" value="SW?DIP?x4*"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>186bd432-029e-4166-9f8a-a6b64814d691</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>75870eb2-b112-49bc-b84f-bcc96c182192</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP6">
+      <value>MID_1V65</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>cc1ab673-0b98-4bf2-8ba0-7e9e579fdfa8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP7">
+      <value>ADC1_IN</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>ce77b936-531d-467b-9674-31afdcab945f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP8">
+      <value>ADC2_IN</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>8d936c71-13e8-477c-aa07-37df70edfb2d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP9">
+      <value>RX1</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>075689be-195f-4615-85cf-0e18385e792f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP10">
+      <value>RX2</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>9bfbb7d7-93cc-46e4-b107-18c7bcb7ee76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>SP3485EN-L/TR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RX" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>53be0000-abcd-4100-8500-000000000019</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="5"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>SP3485EN-L/TR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RX" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>53be0000-abcd-4100-8500-000000000044</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="5"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>MCP6022-I/P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Amp" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>d2a9e9f9-1708-4dbc-bb98-2d648432b2d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>MCP6022-I/P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Detail" part="Amp" description=""/>
+      <property name="Sheetname" value="2  Bus Inputs and Waveform"/>
+      <property name="Sheetfile" value="Inputs.kicad_sch"/>
+      <sheetpath names="/2  Bus Inputs and Waveform/" tstamps="/26bee1cf-c301-42bb-9bfa-f329ea3a9939/"/>
+      <tstamps>757f0f8e-8b74-475e-99de-b8f34402d014</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>315b09d3-31e9-4376-a18d-7c7b0ccfdc59</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>a5420d8f-3309-434c-ab5e-fec9acd7cefa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>22u / 10V (+ top)</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>b3cbd944-eba6-4e45-9eab-0799c83c671d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>22u / 50V</value>
+      <footprint>Tap:Murata_RDE_108156_Horizontal_P5mm</footprint>
+      <fields>
+        <field name="Footprint">Tap:Murata_RDE_108156_Horizontal_P5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>98164a01-3b10-4c05-a334-db335991824b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C24">
+      <value>22u / 25V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>ae93c1cf-6471-49e4-b202-6a365c3a97c7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>fa830eb1-85f9-4c85-a478-fbc37147be17</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C26">
+      <value>1.5F / 5.5V (+ top)</value>
+      <footprint>Tap:KAMCAP_SE-5R5-D155VY_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Tap:KAMCAP_SE-5R5-D155VY_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>8313d3dd-751b-488c-abf8-be0d04bb155f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C27">
+      <value>22u / 50V</value>
+      <footprint>Tap:Murata_RDE_108156_Horizontal_P5mm</footprint>
+      <fields>
+        <field name="Footprint">Tap:Murata_RDE_108156_Horizontal_P5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>e81d2b12-c778-4d14-8497-d1453dd4ae94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C28">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>3271872c-1419-48bd-b00a-e90a8fd1ea5c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>846d57dd-48ef-4774-b0cc-1cb302084ff9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Cin" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>6f4a1b42-e1d1-41a6-9013-9b48dfe8bd89</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>SS34</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="SS34" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>424670cd-cbb1-4dd3-b8cb-902dfef4e457</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="SS34" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>ebb16ec1-e270-4f58-bc18-e17c9a554c6e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>SS34</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="SS34" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>be19bea2-b492-4643-9ec0-7efcec59cf2b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>BE10 / 1 A</value>
+      <footprint>Tap:Daito_BE</footprint>
+      <fields>
+        <field name="Footprint">Tap:Daito_BE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Fuse" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>d8f63088-00d2-4d38-b4fe-8b63cbd84b2d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F2">
+      <value>BE10 / 1 A</value>
+      <footprint>Tap:Daito_BE</footprint>
+      <fields>
+        <field name="Footprint">Tap:Daito_BE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Fuse" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>491b8ec6-eb0f-4757-9fc9-48d314786196</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>MJ-179PH</value>
+      <footprint>Tap:MJ179PH_BoardEdge</footprint>
+      <fields>
+        <field name="Footprint">Tap:MJ179PH_BoardEdge</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Jack" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>7496c6bf-0644-4d18-8624-fa02a3e9be2f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>CAN / DeviceNet 5P</value>
+      <footprint>Tap:Akizuki_APF142_APF143_5P_P5.08</footprint>
+      <fields>
+        <field name="Footprint">Tap:Akizuki_APF142_APF143_5P_P5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="J6" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>64dd5b11-486d-4627-88c5-c3a3246c31ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="PS1">
+      <value>BP5293-50</value>
+      <footprint>Tap:ROHM_BP5293_SIP3</footprint>
+      <fields>
+        <field name="Footprint">Tap:ROHM_BP5293_SIP3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Buck" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>18f9317a-1df2-43be-8396-d4a7319575b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="PS2">
+      <value>BP5293-50</value>
+      <footprint>Tap:ROHM_BP5293_SIP3</footprint>
+      <fields>
+        <field name="Footprint">Tap:ROHM_BP5293_SIP3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Buck" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>9f5351f3-3430-43e1-ab21-22f930e29032</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="PMOS" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>d7131398-c357-4bf7-aee7-18b089858fd8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="NMOS" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>15b1f720-948e-4d0e-863f-3b337525b610</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R27">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>bff19673-922a-4fb2-8ba3-e70c863d390b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R34">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>9fb7b379-0780-4f8f-95b2-e45009b5dda5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R35">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>76d84c57-556f-4c9d-bada-672efef9c097</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>40899d2c-9ad1-4ab6-a369-7ac1b50f7f28</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R45">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="RV" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>436d79ff-f3e8-4dfd-a979-9362d0a47168</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R46">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>af16df00-81d2-4601-93c5-69ebafb95658</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R65">
+      <value>1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="R" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>5f9a27ce-8c77-4c39-91a5-5b12caf7283c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>KHS22E</value>
+      <footprint>Tap:OTAX_KHS22E</footprint>
+      <datasheet>https://akizukidenshi.com/goodsaffix/KHS.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Tap:OTAX_KHS22E</field>
+        <field name="Datasheet">https://akizukidenshi.com/goodsaffix/KHS.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <property name="ki_fp_filters" value="SW?DIP?x2*"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>1def897c-d44b-4fbf-8b5d-1102d6e535e1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>a5015ad5-af7c-4f06-8192-c7c497cce399</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>3V3</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>69d0cf58-a93a-4011-91ef-c959c046e1ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>VCC_SYS</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>b026aa4f-653d-4dd3-8bb8-31b811361de0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP5">
+      <value>DC_IN</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>6f6d53e1-b2d1-4a05-9307-e9747db38d99</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP11">
+      <value>CAN_V-</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>7c8d2763-f61a-422a-8f99-e5fe742aa97a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP12">
+      <value>CAN_5V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="TP" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>1fa07a22-a107-4bbc-bf6b-bca13fcb6536</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="U5" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>53be0000-abcd-4100-8500-000000000276</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>ADM3054BRWZ</value>
+      <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="ADM3054" description=""/>
+      <property name="Sheetname" value="3  Power and CAN"/>
+      <property name="Sheetfile" value="DC_Power.kicad_sch"/>
+      <sheetpath names="/3  Power and CAN/" tstamps="/a7ed08ea-4716-4f00-bef6-4a934bc1a523/"/>
+      <tstamps>78658454-b438-4b88-8148-ec6e0f66d9f2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="15"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="9"/>
+            <pin num="16"/>
+            <pin num="1"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Detail" part="Amp">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Amp</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="passive"/>
+        <pin num="2" name="INA-" type="passive"/>
+        <pin num="3" name="INA+" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="INB+" type="passive"/>
+        <pin num="6" name="INB-" type="passive"/>
+        <pin num="7" name="OUTB" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Detail" part="Res">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Res</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="ADM3054">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADM3054BRWZ</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="2" name="GND1" type="passive"/>
+        <pin num="3" name="GND1" type="passive"/>
+        <pin num="4" name="VDD2SENSE" type="passive"/>
+        <pin num="5" name="RxD" type="passive"/>
+        <pin num="6" name="TxD" type="passive"/>
+        <pin num="7" name="VDD1" type="passive"/>
+        <pin num="8" name="GND1" type="passive"/>
+        <pin num="9" name="GND2" type="passive"/>
+        <pin num="10" name="VREF" type="passive"/>
+        <pin num="11" name="CANL" type="passive"/>
+        <pin num="12" name="CANH" type="passive"/>
+        <pin num="13" name="VDD2" type="passive"/>
+        <pin num="14" name="NC" type="passive"/>
+        <pin num="15" name="NC" type="passive"/>
+        <pin num="16" name="GND2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="Buck">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">BP5293-50</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="Cin">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="Fuse">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">BE10 / 1 A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="Grove4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Grove4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="passive"/>
+        <pin num="2" name="S2" type="passive"/>
+        <pin num="3" name="VCC" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="J1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BUS TERMINAL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="P1+" type="passive"/>
+        <pin num="2" name="P1-" type="passive"/>
+        <pin num="3" name="P2+" type="passive"/>
+        <pin num="4" name="P2-" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="J2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Existing TFT + encoder</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCL" type="passive"/>
+        <pin num="4" name="SDA" type="passive"/>
+        <pin num="5" name="RES" type="passive"/>
+        <pin num="6" name="DC" type="passive"/>
+        <pin num="7" name="CS" type="passive"/>
+        <pin num="8" name="BLK" type="passive"/>
+        <pin num="9" name="A" type="passive"/>
+        <pin num="10" name="B" type="passive"/>
+        <pin num="11" name="PUSH" type="passive"/>
+        <pin num="12" name="K0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="J6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CAN / DeviceNet 5P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V-" type="passive"/>
+        <pin num="2" name="CAN_L" type="passive"/>
+        <pin num="3" name="SHIELD" type="passive"/>
+        <pin num="4" name="CAN_H" type="passive"/>
+        <pin num="5" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="Jack">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MJ-179PH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CENTER" type="passive"/>
+        <pin num="2" name="SLEEVE" type="passive"/>
+        <pin num="3" name="SW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="NMOS">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="PMOS">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="RV">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="RX">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SP3485EN-L/TR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="passive"/>
+        <pin num="2" name="/RE" type="passive"/>
+        <pin num="3" name="DE" type="passive"/>
+        <pin num="4" name="DI" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="A" type="passive"/>
+        <pin num="7" name="B" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="SM712">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SM712</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LINE1" type="passive"/>
+        <pin num="2" name="LINE2" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="SS34">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS34</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="TP">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="U1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WeAct STM32H562RGT6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="F1" name="RX1_PA3" type="passive"/>
+        <pin num="F2" name="RX2_PC4" type="passive"/>
+        <pin num="F3" name="ADC1_IN_PA6" type="passive"/>
+        <pin num="F4" name="ADC2_IN_PB1" type="passive"/>
+        <pin num="F5" name="VCC_P4.3/4" type="passive"/>
+        <pin num="F6" name="GND" type="passive"/>
+        <pin num="F10" name="LCD_A_PC6" type="passive"/>
+        <pin num="F11" name="LCD_B_PC7" type="passive"/>
+        <pin num="F12" name="LCD_PUSH_PA4" type="passive"/>
+        <pin num="F13" name="LCD_K0_PA7" type="passive"/>
+        <pin num="F14" name="LCD_CLK_PB3" type="passive"/>
+        <pin num="F15" name="LCD_MOSI_PB5" type="passive"/>
+        <pin num="F16" name="LCD_RST_PB15" type="passive"/>
+        <pin num="F17" name="LCD_DC_PB13" type="passive"/>
+        <pin num="F18" name="LCD_CS_PB12" type="passive"/>
+        <pin num="F19" name="LCD_BL_PWM_PB6" type="passive"/>
+        <pin num="F20" name="RTC_VB_P1.1_VB" type="passive"/>
+        <pin num="F21" name="ADC3_MID_PC0" type="passive"/>
+        <pin num="F22" name="ADC4_P1A_PC1" type="passive"/>
+        <pin num="F23" name="ADC5_P1B_PC2" type="passive"/>
+        <pin num="F24" name="ADC6_P2A_PC3" type="passive"/>
+        <pin num="F25" name="ADC7_P2B_PC5" type="passive"/>
+        <pin num="F26" name="TX1_PA2" type="passive"/>
+        <pin num="F27" name="TX2_PB10" type="passive"/>
+        <pin num="F28" name="DE1_PA1" type="passive"/>
+        <pin num="F29" name="DE2_PB14" type="passive"/>
+        <pin num="F30" name="RO1_CAP_PA9" type="passive"/>
+        <pin num="F31" name="RO2_CAP_PA10" type="passive"/>
+        <pin num="F32" name="CAN_RX_PB8" type="passive"/>
+        <pin num="F33" name="CAN_TX_PB7" type="passive"/>
+        <pin num="F34" name="CAN_PWR_OK_PB0" type="passive"/>
+        <pin num="F35" name="GRV_SDA_PB4" type="passive"/>
+        <pin num="F36" name="GRV_SCL_PA15" type="passive"/>
+        <pin num="F37" name="GRV_IO1_PA5" type="passive"/>
+        <pin num="F38" name="GRV_IO2_PA0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="U5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="OUT" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x02">
+      <description>2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <footprints>
+        <fp>SW?DIP?x2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x04">
+      <description>4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <footprints>
+        <fp>SW?DIP?x4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/2  Bus Inputs and Waveform/IN1N" class="Default">
+      <node ref="R56" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="INA-_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/2  Bus Inputs and Waveform/IN1P" class="Default">
+      <node ref="R55" pin="2" pintype="passive"/>
+      <node ref="R59" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="INA+_3" pintype="passive"/>
+    </net>
+    <net code="3" name="/2  Bus Inputs and Waveform/IN2N" class="Default">
+      <node ref="R58" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="INA-_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/2  Bus Inputs and Waveform/IN2P" class="Default">
+      <node ref="R57" pin="2" pintype="passive"/>
+      <node ref="R61" pin="2" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="INA+_3" pintype="passive"/>
+    </net>
+    <net code="5" name="/2  Bus Inputs and Waveform/MID_1V65" class="Default">
+      <node ref="R21" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="INB-_6" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="OUTB_7" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="INB+_5" pintype="passive"/>
+    </net>
+    <net code="6" name="/2  Bus Inputs and Waveform/MID_DIV" class="Default">
+      <node ref="C31" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="INB+_5" pintype="passive"/>
+    </net>
+    <net code="7" name="/2  Bus Inputs and Waveform/OUT1" class="Default">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R60" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="OUTA_1" pintype="passive"/>
+    </net>
+    <net code="8" name="/2  Bus Inputs and Waveform/OUT2" class="Default">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R62" pin="1" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="OUTA_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/2  Bus Inputs and Waveform/P1+" class="Default">
+      <node ref="D1" pin="1" pinfunction="LINE1_1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="P1+_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="A_6" pintype="passive"/>
+    </net>
+    <net code="10" name="/2  Bus Inputs and Waveform/P1-" class="Default">
+      <node ref="D1" pin="2" pinfunction="LINE2_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="P1-_2" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="B_7" pintype="passive"/>
+    </net>
+    <net code="11" name="/2  Bus Inputs and Waveform/P2+" class="Default">
+      <node ref="D2" pin="1" pinfunction="LINE1_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="P2+_3" pintype="passive"/>
+      <node ref="R28" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="A_6" pintype="passive"/>
+    </net>
+    <net code="12" name="/2  Bus Inputs and Waveform/P2-" class="Default">
+      <node ref="D2" pin="2" pinfunction="LINE2_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="P2-_4" pintype="passive"/>
+      <node ref="R29" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="4" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="B_7" pintype="passive"/>
+    </net>
+    <net code="13" name="/2  Bus Inputs and Waveform/SPARE_FB" class="Default">
+      <node ref="U7" pin="6" pinfunction="INB-_6" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="OUTB_7" pintype="passive"/>
+    </net>
+    <net code="14" name="/3  Power and CAN/BUCK_5V" class="Power_0.50mm">
+      <node ref="C12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="PS1" pin="3" pinfunction="VOUT_3" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="15" name="/3  Power and CAN/CAN_5V" class="Power_0.50mm">
+      <node ref="C28" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C30" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="PS2" pin="3" pinfunction="VOUT_3" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U8" pin="13" pinfunction="VDD2_13" pintype="passive"/>
+    </net>
+    <net code="16" name="/3  Power and CAN/CAN_H" class="Default">
+      <node ref="J6" pin="4" pinfunction="CAN_H_4" pintype="passive"/>
+      <node ref="SW2" pin="1" pintype="passive"/>
+      <node ref="U8" pin="12" pinfunction="CANH_12" pintype="passive"/>
+    </net>
+    <net code="17" name="/3  Power and CAN/CAN_L" class="Default">
+      <node ref="J6" pin="2" pinfunction="CAN_L_2" pintype="passive"/>
+      <node ref="R65" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U8" pin="11" pinfunction="CANL_11" pintype="passive"/>
+    </net>
+    <net code="18" name="/3  Power and CAN/CAN_V-" class="Default">
+      <node ref="C27" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C28" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C30" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="V-_1" pintype="passive"/>
+      <node ref="PS2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U8" pin="16" pinfunction="GND2_16" pintype="passive"/>
+      <node ref="U8" pin="9" pinfunction="GND2_9" pintype="passive"/>
+    </net>
+    <net code="19" name="/3  Power and CAN/CAN_VIN" class="Power_0.50mm">
+      <node ref="C27" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="PS2" pin="1" pinfunction="VIN_1" pintype="passive"/>
+    </net>
+    <net code="20" name="/3  Power and CAN/DC_IN" class="Power_0.50mm">
+      <node ref="C18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C24" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="PS1" pin="1" pinfunction="VIN_1" pintype="passive"/>
+      <node ref="R34" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="21" name="/3  Power and CAN/FUSED_12V" class="Power_0.50mm">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="22" name="/3  Power and CAN/JACK_12V" class="Power_0.50mm">
+      <node ref="F1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="CENTER_1" pintype="passive"/>
+    </net>
+    <net code="23" name="/3  Power and CAN/Q1_GATE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R27" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="24" name="/3  Power and CAN/Q2_GATE" class="Default">
+      <node ref="Q2" pin="1" pinfunction="G_1" pintype="passive"/>
+      <node ref="R34" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R35" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="25" name="/3  Power and CAN/RTC_CAP" class="Default">
+      <node ref="C26" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R36" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="26" name="/GROVE_IO1" class="Default">
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="U1" pin="F37" pinfunction="GRV_IO1_PA5_F37" pintype="passive"/>
+    </net>
+    <net code="27" name="/GROVE_IO2" class="Default">
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="U1" pin="F38" pinfunction="GRV_IO2_PA0_F38" pintype="passive"/>
+    </net>
+    <net code="28" name="/GROVE_SCL" class="Default">
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="U1" pin="F36" pinfunction="GRV_SCL_PA15_F36" pintype="passive"/>
+    </net>
+    <net code="29" name="/GROVE_SDA" class="Default">
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="U1" pin="F35" pinfunction="GRV_SDA_PB4_F35" pintype="passive"/>
+    </net>
+    <net code="30" name="/J7_SCL" class="Default">
+      <node ref="J7" pin="1" pinfunction="S1_1" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/J7_SDA" class="Default">
+      <node ref="J7" pin="2" pinfunction="S2_2" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="/J8_IO1" class="Default">
+      <node ref="J8" pin="1" pinfunction="S1_1" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/J8_IO2" class="Default">
+      <node ref="J8" pin="2" pinfunction="S2_2" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="/LCD_A" class="Default">
+      <node ref="J2" pin="9" pinfunction="A_9" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U1" pin="F10" pinfunction="LCD_A_PC6_F10" pintype="passive"/>
+    </net>
+    <net code="35" name="/LCD_B" class="Default">
+      <node ref="J2" pin="10" pinfunction="B_10" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U1" pin="F11" pinfunction="LCD_B_PC7_F11" pintype="passive"/>
+    </net>
+    <net code="36" name="/LCD_BL" class="Default">
+      <node ref="J2" pin="8" pinfunction="BLK_8" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="/LCD_BL_PWM" class="Default">
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="U1" pin="F19" pinfunction="LCD_BL_PWM_PB6_F19" pintype="passive"/>
+    </net>
+    <net code="38" name="/LCD_CLK" class="Default">
+      <node ref="J2" pin="3" pinfunction="SCL_3" pintype="passive"/>
+      <node ref="U1" pin="F14" pinfunction="LCD_CLK_PB3_F14" pintype="passive"/>
+    </net>
+    <net code="39" name="/LCD_CS" class="Default">
+      <node ref="J2" pin="7" pinfunction="CS_7" pintype="passive"/>
+      <node ref="U1" pin="F18" pinfunction="LCD_CS_PB12_F18" pintype="passive"/>
+    </net>
+    <net code="40" name="/LCD_DC" class="Default">
+      <node ref="J2" pin="6" pinfunction="DC_6" pintype="passive"/>
+      <node ref="U1" pin="F17" pinfunction="LCD_DC_PB13_F17" pintype="passive"/>
+    </net>
+    <net code="41" name="/LCD_K0" class="Default">
+      <node ref="J2" pin="12" pinfunction="K0_12" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="F13" pinfunction="LCD_K0_PA7_F13" pintype="passive"/>
+    </net>
+    <net code="42" name="/LCD_MOSI" class="Default">
+      <node ref="J2" pin="4" pinfunction="SDA_4" pintype="passive"/>
+      <node ref="U1" pin="F15" pinfunction="LCD_MOSI_PB5_F15" pintype="passive"/>
+    </net>
+    <net code="43" name="/LCD_PUSH" class="Default">
+      <node ref="J2" pin="11" pinfunction="PUSH_11" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U1" pin="F12" pinfunction="LCD_PUSH_PA4_F12" pintype="passive"/>
+    </net>
+    <net code="44" name="/LCD_RST" class="Default">
+      <node ref="J2" pin="5" pinfunction="RES_5" pintype="passive"/>
+      <node ref="U1" pin="F16" pinfunction="LCD_RST_PB15_F16" pintype="passive"/>
+    </net>
+    <net code="45" name="3V3" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C29" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="VCC_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="VCC_3" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R33" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R45" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VCC_8" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="VCC_8" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="OUT_2" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="VDD_8" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="VDD_8" pintype="passive"/>
+      <node ref="U8" pin="7" pinfunction="VDD1_7" pintype="passive"/>
+    </net>
+    <net code="46" name="ADC1_IN" class="Default">
+      <node ref="C16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="F3" pinfunction="ADC1_IN_PA6_F3" pintype="passive"/>
+    </net>
+    <net code="47" name="ADC2_IN" class="Default">
+      <node ref="C17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="F4" pinfunction="ADC2_IN_PB1_F4" pintype="passive"/>
+    </net>
+    <net code="48" name="ADC3_MID" class="Default">
+      <node ref="C21" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="F21" pinfunction="ADC3_MID_PC0_F21" pintype="passive"/>
+    </net>
+    <net code="49" name="ADC4_P1A" class="Default">
+      <node ref="C19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="F22" pinfunction="ADC4_P1A_PC1_F22" pintype="passive"/>
+    </net>
+    <net code="50" name="ADC5_P1B" class="Default">
+      <node ref="C20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="F23" pinfunction="ADC5_P1B_PC2_F23" pintype="passive"/>
+    </net>
+    <net code="51" name="ADC6_P2A" class="Default">
+      <node ref="C22" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R30" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R32" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="F24" pinfunction="ADC6_P2A_PC3_F24" pintype="passive"/>
+    </net>
+    <net code="52" name="ADC7_P2B" class="Default">
+      <node ref="C23" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R29" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R31" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R33" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="F25" pinfunction="ADC7_P2B_PC5_F25" pintype="passive"/>
+    </net>
+    <net code="53" name="CAN_PWR_OK" class="Default">
+      <node ref="U1" pin="F34" pinfunction="CAN_PWR_OK_PB0_F34" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="VDD2SENSE_4" pintype="passive"/>
+    </net>
+    <net code="54" name="CAN_RX" class="Default">
+      <node ref="U1" pin="F32" pinfunction="CAN_RX_PB8_F32" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="RxD_5" pintype="passive"/>
+    </net>
+    <net code="55" name="CAN_TX" class="Default">
+      <node ref="R45" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="F33" pinfunction="CAN_TX_PB7_F33" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="TxD_6" pintype="passive"/>
+    </net>
+    <net code="56" name="DE1" class="Default">
+      <node ref="R37" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="F28" pinfunction="DE1_PA1_F28" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="DE_3" pintype="passive"/>
+    </net>
+    <net code="57" name="DE2" class="Default">
+      <node ref="R38" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="F29" pinfunction="DE2_PB14_F29" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="DE_3" pintype="passive"/>
+    </net>
+    <net code="58" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C19" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C20" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C21" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C22" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C23" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C24" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C25" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C26" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C29" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C31" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="COM_3" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="COM_3" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="SLEEVE_2" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="PS1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R30" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R31" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R35" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R37" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R38" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R41" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R44" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="F6" pinfunction="GND_F6" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="/RE_2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="/RE_2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="VSS_4" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="VSS_4" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="GND1_2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="GND1_3" pintype="passive"/>
+      <node ref="U8" pin="8" pinfunction="GND1_8" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D6-A)" class="Power_0.50mm">
+      <node ref="D6" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="F2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D7-K)" class="Default">
+      <node ref="D7" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R40" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D8-K)" class="Default">
+      <node ref="D8" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R43" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(J6-V+)" class="Power_0.50mm">
+      <node ref="F2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="V+_5" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(R1-Pad2)" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(R2-Pad2)" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(R3-Pad2)" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(R4-Pad2)" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R58" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(R5-Pad2)" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R59" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(R6-Pad1)" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R60" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(R39-Pad1)" class="Default">
+      <node ref="R39" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R40" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R63" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW1" pin="8" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(R39-Pad2)" class="Default">
+      <node ref="R39" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R41" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R63" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW1" pin="7" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(R42-Pad1)" class="Default">
+      <node ref="R42" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R43" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R64" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW1" pin="6" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(R42-Pad2)" class="Default">
+      <node ref="R42" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R44" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R64" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW1" pin="5" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(R46-Pad1)" class="Default">
+      <node ref="R46" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW2" pin="4" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(R46-Pad2)" class="Default">
+      <node ref="R46" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R65" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(R61-Pad1)" class="Default">
+      <node ref="R61" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(R62-Pad2)" class="Default">
+      <node ref="R62" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="RTC_VB" class="Default">
+      <node ref="C25" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R36" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="F20" pinfunction="RTC_VB_P1.1_VB_F20" pintype="passive"/>
+    </net>
+    <net code="78" name="RX1" class="Default">
+      <node ref="TP9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="F1" pinfunction="RX1_PA3_F1" pintype="passive"/>
+      <node ref="U1" pin="F30" pinfunction="RO1_CAP_PA9_F30" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="RO_1" pintype="passive"/>
+    </net>
+    <net code="79" name="RX2" class="Default">
+      <node ref="TP10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="F2" pinfunction="RX2_PC4_F2" pintype="passive"/>
+      <node ref="U1" pin="F31" pinfunction="RO2_CAP_PA10_F31" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="RO_1" pintype="passive"/>
+    </net>
+    <net code="80" name="TX1" class="Default">
+      <node ref="U1" pin="F26" pinfunction="TX1_PA2_F26" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="DI_4" pintype="passive"/>
+    </net>
+    <net code="81" name="TX2" class="Default">
+      <node ref="U1" pin="F27" pinfunction="TX2_PB10_F27" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="DI_4" pintype="passive"/>
+    </net>
+    <net code="82" name="VCC_SYS" class="Power_0.50mm">
+      <node ref="C13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="F5" pinfunction="VCC_P4.3/4_F5" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="VIN_3" pintype="passive"/>
+    </net>
+    <net code="83" name="unconnected-(J4-SW-Pad3)" class="Default">
+      <node ref="J4" pin="3" pinfunction="SW_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(J6-SHIELD-Pad3)" class="Default">
+      <node ref="J6" pin="3" pinfunction="SHIELD_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(SW2-Pad2)" class="Default">
+      <node ref="SW2" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(SW2-Pad3)" class="Default">
+      <node ref="SW2" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U8-NC-Pad1)" class="Default">
+      <node ref="U8" pin="1" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U8-NC-Pad14)" class="Default">
+      <node ref="U8" pin="14" pinfunction="NC_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U8-NC-Pad15)" class="Default">
+      <node ref="U8" pin="15" pinfunction="NC_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U8-VREF-Pad10)" class="Default">
+      <node ref="U8" pin="10" pinfunction="VREF_10" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,3 @@
+# Preserve the exact board and manufacturing files used for the Rev1 quote.
+/pcb/RS422-485-Wave-Logger.kicad_pcb -text
+/pcb/manufacturing/*.csv -text
